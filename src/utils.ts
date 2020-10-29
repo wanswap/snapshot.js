@@ -1,5 +1,5 @@
-import { Interface } from '@ethersproject/abi';
-import { Contract } from '@ethersproject/contracts';
+import { Interface } from '@wansproject/abi';
+import { Contract } from '@wansproject/contracts';
 import { jsonToGraphQLQuery } from 'json-to-graphql-query';
 import { abi as multicallAbi } from './abi/Multicall.json';
 import _strategies from './strategies';

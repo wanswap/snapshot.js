@@ -1,4 +1,4 @@
-import { formatUnits } from '@ethersproject/units';
+import { formatUnits } from '@wansproject/units';
 import { multicall } from '../../utils';
 
 export const author = 'andytcf';

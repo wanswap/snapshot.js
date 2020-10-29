@@ -1,4 +1,4 @@
-import { formatUnits } from '@ethersproject/units';
+import { formatUnits } from '@wansproject/units';
 import { multicall } from '../../utils';
 import { strategy as erc20BalanceOfStrategy } from '../erc20-balance-of';
 

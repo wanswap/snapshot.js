@@ -1,20 +1,20 @@
 {
-  "name": "@snapshot-labs/snapshot.js",
+  "name": "@wanswap/snapshot.js",
   "version": "0.1.0",
-  "repository": "snapshot-labs/snapshot.js",
+  "repository": "wanswap/snapshot.js",
   "license": "MIT",
   "main": "dist/snapshot.cjs.js",
   "module": "dist/snapshot.esm.js",
   "browser": "dist/snapshot.min.js",
   "dependencies": {
-    "@ethersproject/abi": "^5.0.4",
-    "@ethersproject/address": "^5.0.4",
-    "@ethersproject/contracts": "^5.0.3",
-    "@ethersproject/units": "^5.0.3",
+    "@wansproject/abi": "^5.0.4",
+    "@wansproject/address": "^5.0.4",
+    "@wansproject/contracts": "^5.0.3",
+    "@wansproject/units": "^5.0.3",
     "json-to-graphql-query": "^2.0.0"
   },
   "devDependencies": {
-    "@ethersproject/providers": "^5.0.9",
+    "@wansproject/providers": "^5.0.9",
     "@types/node": "^13.9.5",
     "bluebird": "^3.7.2",
     "eslint": "^6.8.0",

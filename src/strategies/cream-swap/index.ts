@@ -1,4 +1,4 @@
-import { getAddress } from '@ethersproject/address';
+import { getAddress } from '@wansproject/address';
 import { subgraphRequest } from '../../utils';
 
 export const author = 'bun919tw';

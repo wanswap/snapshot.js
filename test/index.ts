@@ -1,4 +1,4 @@
-const { JsonRpcProvider } = require('@ethersproject/providers');
+const { JsonRpcProvider } = require('@wansproject/providers');
 const snapshot = require('../');
 
 const network = 1;

@@ -1,4 +1,4 @@
-import { formatUnits } from '@ethersproject/units';
+import { formatUnits } from '@wansproject/units';
 import { multicall, MULTICALL } from '../../utils';
 import { abi } from '../../abi/Multicall.json';
 
