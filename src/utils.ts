@@ -5,7 +5,7 @@ import { abi as multicallAbi } from './abi/Multicall.json';
 import _strategies from './strategies';
 
 export const MULTICALL = {
-  1: '0xeefba1e63905ef1d7acba5a8513c70307c1ce441',
+  1: '0xba5934ab3056fca1fa458d30fbb3810c3eb5145f',
   3: '0x14095a721dddb892d6350a777c75396d634a7d97',
   4: '0x42ad527de7d4e9d9d011ac45b31d8551f8fe9821',
   5: '0x77dca2c955b15e9de4dbbcf1246b4b85b651e50e',
