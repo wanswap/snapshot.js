@@ -1,24 +1,13 @@
 const { JsonRpcProvider } = require('@wansproject/providers');
 const snapshot = require('../');
 
-const network = 1;
-const url = 'https://eth-mainnet.alchemyapi.io/v2/fimsdrLNuwLMmDgFvuH_XRLgwE1hpHiR';
+const network = 888;
+const url = 'https://gwan-ssl.wandevs.org:56891';
 const provider = new JsonRpcProvider(url);
 
 const strategies = [
   {
-    name: 'erc20-balance-of',
-    params: {
-      address: '0x6b175474e89094c44da98b954eedeac495271d0f',
-      decimals: 18
-    }
-  },
-  {
-    name: 'yearn-vault',
-    params: {
-      address: '0xBA2E7Fed597fd0E3e70f5130BcDbbFE06bB94fe1',
-      decimals: 18
-    }
+    name: 'wan-vote'
   },
   {
     name: 'eth-balance'
@@ -26,13 +15,12 @@ const strategies = [
 ];
 
 const addresses = [
-  '0xa478c2975ab1ea89e8196811f51a7b7ade33eb11',
-  '0xeF8305E140ac520225DAf050e2f71d5fBcC543e7',
-  '0xBA2E7Fed597fd0E3e70f5130BcDbbFE06bB94fe1'
+  '0x5560aF0F46D00FCeA88627a9DF7A4798b1b10961',
+  '0xb920344cf7cab8f7e96dabb34abc4d0be72dbfbe',
 ];
 
 async function test() {
-  const scores = await snapshot.utils.getScores(strategies, network, provider, addresses);
+  const scores = await snapshot.utils.getScores(strategies, network, provider, addresses, 14394276);
   console.log('Scores', scores);
 }
 

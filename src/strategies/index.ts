@@ -13,6 +13,8 @@ import { strategy as moloch } from './moloch';
 import { strategy as pancake } from './pancake';
 import { strategy as synthetix } from './synthetix';
 import { strategy as erc20WithBalance } from './erc20-with-balance';
+import { strategy as wanvote } from './wan-vote';
+
 
 export default {
   balancer,
@@ -29,5 +31,6 @@ export default {
   'yearn-vault': yearnVault,
   moloch,
   pancake,
-  synthetix
+  synthetix,
+  'wan-vote': wanvote,
 };
